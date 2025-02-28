@@ -19,5 +19,24 @@ A simple, yet functional command-line shell for a UNIX-based system that can exe
 7) Command History
 
 
-## Examples
+## Installation and Running
 
+Clone the repository
+```
+$ git clone https://github.com/YashShah138/unix-shell
+```
+
+Change working directory
+```
+$ cd unix-shell
+```
+
+Compile
+```
+$ gcc -o build/rudimentary_shell src/shell.c
+```
+
+Run the shell
+```
+$ ./build/unix-shell
+```
