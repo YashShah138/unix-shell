@@ -1,12 +1,19 @@
 ## 1. Project Structure
 
 unix-shell/
+
 ├── src/
+
 │ ├── shell.c
+
 └── include/
+
 │ ├── shell.h
+
 └── build/
+
 └── tests/
+
 └── README.md
 
 
