@@ -1,17 +1,4 @@
-## 1. Project Structure
-
-unix-shell/
-├── src/
-│ ├── shell.c
-└── include/
-│ ├── shell.h
-└── build/
-└── tests/
-└── README.md
-
-
-
-## 2. Core Requirements
+## 1. Core Requirements
 
 - [ ] Command Execution
 - [ ] Built-in Commands
@@ -23,7 +10,7 @@ unix-shell/
 
 
 
-## 3. Plan of Shell Architecture
+## 2. Plan of Shell Architecture
 
 ### Modular Components
 1. Initialize Module
@@ -46,7 +33,7 @@ unix-shell/
 
 
 
-## 4. Develop in Iterative Steps
+## 3. Develop in Iterative Steps
 
 ### Phase 1 - Basic Shell Loop
 - Implement a loop to display a prompt and read user input
@@ -71,7 +58,7 @@ unix-shell/
 
 
 
-## 5. Testing Strategy
+## 4. Testing Strategy
 
 | Test Scenario     | Expected Outcome               |
 |-------------------|--------------------------------|
@@ -80,7 +67,3 @@ unix-shell/
 | `exit`            | Exit the shell                 |
 | Invalid command   | Display an error message       |
 | Long command line | Handle input overflow          |
-
-
-
-## 6. 
